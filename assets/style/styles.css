@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -10,7 +13,9 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  width: 40rem;
   align-items: center;
+  padding: 2rem;
   margin: 2rem;  
 }
 
@@ -18,4 +23,64 @@ main {
   display: flex;
   flex-direction: column;
   box-shadow: 0px 1px 0px silver;
+}
+
+.mid-text-top-container {
+  width: 25rem;
+}
+
+.mid-text-top,
+.mid-text-mid,
+.mid-text-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+  color: #0a5696;
+}
+
+.mid-text-top h2 {
+  margin: 0.3rem 0;
+  font-size: 1.7rem;
+  font-weight: 600;
+  font-stretch:ultra-expanded;
+  padding: 0.5rem;
+  letter-spacing: 0.01rem;
+}
+
+.you-book-border {
+  border-bottom: 0.2rem solid #0a5696;
+  padding-bottom: 1rem;
+}
+
+.mid-text-mid-container {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.mid-text-mid h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.mid-text-mid h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.mid-text-bottom h4 {
+  margin: 0;
+}
+
+.mid-text-bottom span {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.mid-text-bottom h1 {
+  margin: 0;
+  font-size: 4rem;
 }
